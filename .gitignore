@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+.idea/
+.vscode/
+
+# Download datasets locally; see data/README.md.
+data/*.xlsx
+data/*.xls
+data/*.csv
+data/*.zip
+data/ml-latest-small/
+
+# Generated notebook exports and model artifacts
+*.html
+*.pkl
+*.joblib
